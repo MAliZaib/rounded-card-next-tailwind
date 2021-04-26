@@ -14,7 +14,10 @@ export default function Home() {
            <div className="bg-white flex-1 rounded-tl-xl" ></div>
            <div className=" relative" >
              <img src="/images/curvedImage.png" className="" />
-              <div className="flex my-auto items-center justify-center absolute inset-0 bg-white   rounded-full  text-3xl font-black
+              <div className="flex my-auto items-center justify-center absolute inset-0 bg-white   rounded-full   font-black
+              
+              h-[50px] w-[50px] text-[8px] -left-10
+              md:h-[100px] md:w-[100px] md:text-base md:-left-14 
               lg:h-[120px] lg:w-[120px] lg:text-base lg:-left-16 lg:inset-y-4
               xl:h-[180px] xl:w-[180px] xl:inset-y-[15px]   xl:text-2xl xl:-left-24
               2xl:h-[224px] 2xl:w-[224px] 2xl:-left-28  xl:inset-y-[16px]
